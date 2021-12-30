@@ -1,0 +1,350 @@
+/* Je suis un commentaire css
+h1{
+    color: red;
+}
+
+.premierp{
+    color: green;
+}
+
+#deuxiemep{
+    color : red;
+} */
+
+/******************************************************/
+
+
+/* h2 + p {
+    font-size: 30px;
+} */
+
+/* p[class]{
+    font-size: 30px;
+} */
+/* p[class="para1"]{
+    font-size: 30px;
+} */
+/* p[class*="para1"]{
+    font-size: 30px;
+} */
+
+/************************************************************/
+
+
+/* p{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div1{
+    font-style: normal;
+}
+.para1{
+    font-size: 25px;
+    font-style: inherit;
+    font-weight: bold;
+    line-height: 37.5px;
+}
+.para2{
+    font-size: 1.8em;
+    color:rgba(0, 250, 33, 0.8);
+}
+
+.blanc{
+    color: #004589;
+    opacity: 0.8;
+} */
+
+/*****************************************************/
+
+/* p{
+    font-style: italic;
+}
+
+.div1{
+    font-style: normal;
+    color: rgba(60, 255,0, 0.8);
+
+}
+
+.para1{
+    font-size: 30px;
+    font-style: inherit;
+    font-weight: bold;
+    line-height: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    opacity: 0.4;
+}
+
+.para2{
+    font-size: 1.8em;
+    color: #0FAA10;
+    opacity: 1;
+}
+
+.blanc{
+} */
+
+
+/*************************************************************/
+
+/* h2{
+    text-decoration :underline;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-shadow:3px 2px 3px black ;
+}
+
+.para1{
+    text-align: justify;
+    text-indent: 20px;
+}
+.para2{
+    text-align: right;
+    text-decoration: none;
+}
+.para3{
+    text-align: center;
+} */
+
+/***********************************************************/
+
+/*on peut faire un reset css car certains navigateur peut appliqué un padding et margin comme il veut ; et la notion d'héritage de style*/
+/*body{
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    text-decoration: underline;
+    text-transform: uppercase ;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    text-shadow: 2px 2px 2px red;
+
+    height:30px;
+    width:auto;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 15px;
+}
+
+.para1{
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 50px;
+
+    border: 5px dashed black;
+    border-radius: 15px 15px 25px 20px;
+
+}
+
+.para2{
+    text-align: right;
+    text-decoration: overline;
+    text-transform: capitalize;
+
+}
+
+.para3{
+    text-align: center;
+    text-decoration:line-through;
+    text-indent: -50px;
+    text-transform: capitalize;
+
+    border-left-width: 5px ;
+    border-left-style: solid;
+    border-left-color: blue;
+
+}
+
+.para4{
+    border: 3px solid black;
+    padding: 2px;
+    margin: 5px;
+    box-shadow: 2px 2px 2px black inset;
+}*/
+
+/*********************************************************************************/
+
+/* .para1{
+    float: left; 
+    display: inline-block;
+    color: red;
+    z-index: 1;
+}
+
+.para2{
+    clear: both; 
+    display: inline;
+
+}
+.para1,.para2{
+    position: absolute;
+    top: 0px;
+}
+
+.para3{
+    display: none;  
+    position: absolute;
+    top: 0px;
+    right: 0px;    
+} */
+
+/*.para4,em{
+    position: absolute;
+    
+}
+.para4{
+    top: 200px;
+}
+em{
+     top: 200px; 
+}*/
+
+/*************************************************************************/
+/*body{*/
+    /* background-image: url(../../ahmedPFE/ERPHôtellerie/ERPHôtellerie/assets/img/menu/tuscan-grilled.jpg);
+    background-repeat: no-repeat;
+    background-position: 100px 0;
+    background-attachment: fixed; */
+
+    /* background : url("../../ahmedPFE/ERPHôtellerie/ERPHôtellerie/assets/img/menu/tuscan-grilled.jpg") fixed no-repeat top left,
+                url("../../ahmedPFE/ERPHôtellerie/ERPHôtellerie/assets/img/menu/mozzarella.jpg") fixed no-repeat top right,
+                url("../../ahmedPFE/ERPHôtellerie/ERPHôtellerie/assets/img/menu/lobster-roll.jpg") fixed no-repeat bottom left ; */
+
+    /* background: linear-gradient(to right, red,blue); */
+    /* background: -webkit-linear-gradient(right ,red,blue); */
+    /* background: -moz-linear-gradient(right,red,blue);
+    background: -o-linear-gradient(right,red,blue); */
+
+    /* background: linear-gradient(to top right ,red,blue);
+    background: -webkit-linear-gradient((0deg,red,blue));
+    background: -moz-linear-gradient(90deg,red,blue);
+    background: -o-linear-gradient(90deg,red,blue); */
+
+    /* background: linear-gradient(to top right,red,yellow,blue); */
+
+    /* background: linear-gradient(to top right ,#FF0000,yellow,blue); */
+
+    /* background: linear-gradient(90deg,red,yellow,blue); */
+    /* background: -webkit-linear-gradient(0deg,red,yellow,blue); */
+    /* background: -moz-linear-gradient(90deg,red,blue); */
+    /* background: -o-linear-gradient(90deg,red,blue);  */
+
+
+    /* background: radial-gradient(0 0 ,blue,red,yellow);
+    background: -webkit-radial-gradient(0 0 ,blue,red,yellow);
+    background: -moz-radial-gradient(0 0,blue,red,yellow);
+    background: -o-linear-gradient(0 0,blue,red,yellow); */
+
+    
+
+/* } */
+
+/* img{
+    height: 500px;
+    display: block;
+    border: 2px solid black;
+    padding: 1px;
+    margin: 10px;
+    float: 200px 200px;
+} */
+
+
+/* th,td{
+    border: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+} */
+
+/* textarea{
+    width: 12px;
+    height: 12px;
+} */
+
+/*body{
+    width: 100%;
+}
+
+div,p,article{
+    width: 50%;
+    border: 3px solid black;
+}
+div{
+    background-color: red;
+}
+p{
+    background-color: green;
+}
+
+*/
+
+/*body{
+    background-color: green;
+}
+
+@media screen and (max-width : 680px) {
+    body{
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width : 681px) and (max-width : 1279px){
+    body{
+        background-color: blue;
+    }
+    h1{
+        font-size: 200px;
+    }
+}*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#div1,#div2,#div3{
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    border: 2px solid black;
+    margin: 1%;
+}
+#div1{
+    background-color: orange;
+}
+#div2{
+    background-color: blue;
+}
+#div3{
+    background-color: green;
+}
+
+#footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #CCC; 
+}
+
+@media screen and (max-width : 780px){
+    #div1,#div2,#div3{
+        width: 100%;
+        border-right: none;
+        border-left: none;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #footer{
+        display: none;
+    }
+}
+
+@media screen and (orientation : landscape){}
