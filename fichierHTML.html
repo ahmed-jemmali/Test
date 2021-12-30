@@ -1,0 +1,443 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fichierCSS.css">
+</head>
+
+<body>
+    <h1>Ceci est mon premier titre</h1>
+    <h2>Ceci est un autre titre</h2>
+    <h3>Ceci est un titre de niveau 3</h3>
+
+    <p class="premierp">Pour aller vers 1997 <a href="#ancre">Cliquer ici</a></p>
+    <p id="deuxiemep">Envoyez un <a href="mailto:ahm.jemmali@gmail.com">mail</a></p>
+    <p>Télechargez mon super <a href="./test1.rar">fichier</a>!</p>
+
+
+
+
+
+
+    <p>
+        Dénominations
+        L’anglais « Hypertext Markup Language » se traduit littéralement en « langage de balisage d’hypertexte »1. On
+        utilise généralement le sigle « HTML », parfois même en répétant le mot « langage » comme dans « langage HTML ».
+        Hypertext est parfois écrit HyperText pour marquer le T du sigle HTML.
+
+        Le public non averti parle parfois de HTM au lieu de HTML, HTM étant l’extension de nom de fichier tronquée à
+        trois lettres, une limitation que l’on trouve sur d’anciens systèmes d’exploitation de Microsoft.
+
+        Évolution du langage
+        Durant la première moitié des années 1990, avant l’apparition des technologies Web comme le langage JavaScript
+        (JS), les feuilles de style en cascade (CSS) et le Document Object Model (DOM), l’évolution de HTML a dicté
+        l’évolution du World Wide Web. Depuis 1997 et HTML 4, l’évolution de HTML a fortement ralenti ; dix ans plus
+        tard, HTML 4 reste utilisé dans les pages web. En 2008, la spécification du HTML5 est à l’étude2 et devient
+        d'usage courant dans la seconde moitié des années 2010.
+
+        1989-1992 : Origine
+        HTML est une des trois inventions à la base du World Wide Web, avec le Hypertext Transfer Protocol (HTTP) et les
+        adresses web (URL). HTML a été inventé pour permettre d'écrire des documents hypertextuels liant les différentes
+        ressources d’Internet avec des hyperliens. Aujourd’hui, ces documents sont appelés « page web ». En août 1991,
+        lorsque Tim Berners-Lee annonce publiquement le web sur Usenet, il ne cite que le langage Standard Generalized
+        Markup Language (SGML), mais donne l’URL d’un document de suffixe .html.
+
+        Dans son livre Weaving the web3, Tim Berners-Lee décrit la décision de baser HTML sur SGML comme étant aussi «
+        diplomatique » que technique : techniquement, il trouvait SGML trop complexe, mais il voulait attirer la
+        communauté hypertexte qui considérait que SGML était le langage le plus prometteur pour standardiser le format
+        des documents hypertexte. En outre, SGML était déjà utilisé par son employeur, l’Organisation européenne pour la
+        recherche nucléaire (CERN). ;
+
+        Les premiers éléments du langage HTML comprennent :
+
+        le titre du document,
+        les hyperliens,
+        la structuration du texte en titres, sous-titres, listes ou texte brut,
+        un mécanisme rudimentaire de recherche par index.
+        La description de HTML est alors assez informelle et principalement définie par le support des divers
+        navigateurs web contemporains. Dan Connolly a aidé à faire de HTML une véritable application de SGML4.
+
+        1993 : Apports de NCSA Mosaic
+        L’état de HTML correspond alors à ce que l’on pourrait appeler HTML 1.0. Il n’existe cependant aucune
+        spécification portant ce nom, notamment parce que le langage était alors en pleine évolution. Un effort de
+        normalisation était cependant en cours5. À partir de fin 1993, le terme HTML+ est utilisé pour désigner la
+        version future de HTML6,7. Malgré l’effort de normalisation ainsi initié, et jusqu’à la fin des années 1990,
+        HTML est principalement défini par les implémentations des navigateurs web.
+
+        Avec le navigateur NCSA Mosaic, HTML connaît deux inventions majeures :
+
+        d’abord l’invention de l’élément IMG permet d’intégrer des images (dans un premier temps, uniquement aux formats
+        GIF et XBM) aux pages web (Mosaic 0.10) ;
+        ensuite l’invention des formulaires (Mosaic 2.0pre5) rend le web interactif en permettant aux visiteurs de
+        saisir des données dans les pages et de les envoyer au serveur web. Cette invention permet notamment de passer
+        des commandes, donc d’utiliser le web pour faire du commerce électronique.
+        1994 : Apports de Netscape Navigator
+        Avec l’apparition de Netscape Navigator 0.9 le 13 octobre 1994, le support de nombreux éléments de présentation
+        est ajouté : attributs de texte, clignotement, centrage, etc.
+
+        Le développement de HTML prend alors deux voies divergentes :
+
+        d’une part, les développeurs de navigateurs s’attachent à maximiser l’impact visuel des pages web en réponse aux
+        demandes des utilisateurs8 ;
+        d’autre part, les concepteurs du web proposent d’étendre les capacités de description sémantique (logos, notes
+        de bas de page, etc.) et les domaines d’applications (formules mathématiques, tables) de HTML.
+        Les concepteurs suivent les principes de SGML consistant à laisser la présentation à un langage de style. En
+        l’occurrence, les feuilles de style en cascade (CSS) sont prévues pour HTML. Seul le support des tables est
+        rapidement intégré aux navigateurs, notamment parce qu’il permet une très nette amélioration de la présentation.
+
+        Outre la multiplication des éléments de présentation, les logiciels d’alors produisant et consommant du HTML
+        conçoivent souvent les documents comme une suite de commandes de formatage plutôt que comme un marquage
+        représentant la structure en arbre aujourd’hui appelée Document Object Model (DOM). Le manque de structure du
+        HTML alors mis en œuvre est parfois dénoncé comme étant de la « soupe de balises », en anglais : tag soup.
+
+        1995-1996 : HTML 2.0
+        En mars 1995, le World Wide Web Consortium (W3C) nouvellement fondé propose le résultat de ses recherches sur
+        HTML+ : le brouillon HTML 3.0. Il comprend notamment le support des tables, des figures et des expressions
+        mathématiques. Ce brouillon expire le 28 septembre 1995 sans donner de suites directes. Fin 1995, le RFC 18669
+        décrivant HTML 2.0 est finalisé. Le principal éditeur est Dan Connolly. Ce document décrit HTML tel qu’il
+        existait avant juin 1994, donc sans les nombreuses additions de Netscape Navigator.
+
+        1997 : HTML 3.2 et 4.0
+        Le 14 janvier 1997, le W3C publie la spécification HTML 3.2. Elle décrit la pratique courante observée début
+        199610, donc avec une partie des additions de Netscape Navigator et d’Internet Explorer. Ses plus importantes
+        nouveautés sont la standardisation des tables et de nombreux éléments de présentation. HTML 3.2 précède de peu
+        HTML 4.0 et contient des éléments en prévision du support des styles et des scripts.
+
+        Le 18 décembre 1997, le W3C publie la spécification HTML 4.0 qui standardise de nombreuses extensions supportant
+        les styles et les scripts, les cadres (frames) et les objets (inclusion généralisée de contenu). HTML 4.0
+        apporte également différentes améliorations pour l’accessibilité des contenus11 dont principalement la
+        possibilité d’une séparation plus explicite entre structure et présentation du document, ou le support
+        d’informations supplémentaires sur certains contenus complexes tels que les formulaires, les tableaux ou les
+        sigles. HTML 4.0 introduit trois variantes du format, destinées à favoriser l’évolution vers un balisage plus
+        signifiant, tout en tenant compte des limites temporaires des outils de production :
+
+        la variante stricte (strict) exclut des éléments et attributs dits « de présentation », destinés à être
+        remplacés par les styles CSS, ainsi que les éléments applet et frame qui sont remplacés par l’élément object
+        conçu pour être plus apte à l’interopérabilité et à l’accessibilité ;
+        la variante transitoire (transitional) étend la variante stricte en reprenant les éléments et attributs
+        dépréciés de HTML 3.2, dont les éléments de présentation sont couramment utilisés par les éditeurs HTML de
+        l’époque ;
+        la variante frameset normalise la technique des jeux de cadres composant une ressource unique à partir de
+        plusieurs pages web assemblées par le navigateur.
+        Ces variantes perdurent par la suite sans modifications notables en HTML 4.01 et dans le format de transition
+        XHTML 1.0 issu de HTML. La dernière spécification de HTML est la version 4.01 datant du 24 décembre 1999. Elle
+        n’apporte que des corrections mineures à la version 4.0.
+
+        2000-2006 : XHTML
+        Article détaillé : Extensible Hypertext Markup Language.
+        Le développement de HTML en tant qu’application du Standard Generalized Markup Language (SGML) est
+        officiellement abandonné au profit de XHTML, application de Extensible Markup Language (XML).
+
+        Cependant, en 2004, des éditeurs de navigateurs web12 créent le web Hypertext Application Technology Working
+        Group (WHATWG) dans le but, notamment, de relancer le développement du format HTML et de répondre aux nouveaux
+        besoins sur une base technologique jugée plus aisément implémentable que celle du XHTML 2.0 en cours de
+        conception.
+
+        Ceci s’inscrit dans le contexte d’une contestation plus générale du mode de fonctionnement du W3C, réputé trop
+        fermé par une partie des développeurs et designers web13.
+
+        De 2007 à nos jours : HTML 5 et abandon du XHTML 2
+        En mars 2007, tirant la conséquence des réticences d’une partie de l’industrie et des concepteurs de contenus
+        web face à XHTML 2.014, le W3C relance le développement de HTML et crée un nouveau groupe de travail encadré par
+        Chris Wilson (Microsoft) et initialement Dan Connolly (W3C),puis Michael Smith (W3C).
+
+        Il s’agit notamment15 :
+
+        de faire évoluer HTML pour décrire la sémantique des documents mais aussi les applications en ligne ;
+        de parvenir à un langage extensible via XML tout en maintenant une version non XML compatible avec les
+        analyseurs syntaxiques (parsers) HTML des navigateurs actuels ;
+        et d’enrichir les interfaces utilisateurs avec des contrôles spécifiques : barres de progrès, menus, champs
+        associés à des types de données spécifiques.
+        Les travaux du WHATWG ont été formellement adoptés en mai 2007 comme point de départ d’une nouvelle
+        spécification HTML516. Ce document17 a été publié sous forme de Working Draft le 22 janvier 2008. Parmi les
+        principes de conception évoqués par le groupe de travail figurent en particulier18 :
+
+        la compatibilité des futures implémentations HTML avec le contenu web existant, et la possibilité pour d’anciens
+        agents utilisateurs d’exploiter les futurs contenus HTML 5 ;
+        une approche pragmatique, préférant les évolutions aux modifications radicales, et adoptant les technologies ou
+        pratiques déjà largement partagées par les auteurs de contenus actuels ;
+        la priorité donnée, en cas de conflit d’intérêt, aux besoins des utilisateurs sur ceux des auteurs, et par
+        suite, à ceux des auteurs sur les contraintes d’implémentation par les navigateurs ;
+        le compromis entre la richesse sémantique du langage et l’utilité pratique des solutions disponibles pour
+        remplir l’objectif majeur d’indépendance envers le média de restitution.
+        Une Accessibility Task Force est créée par le W3C en novembre 2009 afin de résoudre les problèmes de
+        compatibilité du nouveau format avec les normes d'accessibilité19, liés notamment à l'implémentation d'ARIA, aux
+        alternatives textuelles et aux nouveaux éléments canvas et video20.
+
+        Le développement de XHTML 2.0 est initialement poursuivi en parallèle, en réponse aux besoins d’autres secteurs
+        du web, tels que les périphériques mobiles, les applications d’entreprise et les applications serveurs21. Puis,
+        en juillet 2009, le W3C décide la non-reconduction du XHTML 2 Working Group à la fin 200922.
+
+        Avec l'abandon du XHTML 2, la version XHTML 1.1 reste donc la version normalisée. Le HTML5 sera compatible avec
+        le XHTML et le XML, et autorisera donc des documents XHTML523. Cependant, il est probable que le W3C s'oriente
+        vers un abandon pur et simple du XHTML 1.1, car l'implantation du XML dans le HTML5 rend inutile la définition
+        de document de type XHTML y.y (où y.y sont les numéros de version)23.
+
+        Article détaillé : HTML5.
+        Avenir du HTML
+        En janvier 2011, des divergences de points de vue entre Ian Hickson (ingénieur chez Google), qui écrit la
+        spécification HTML5, et les membres du groupe de travail du W3C conduisent le WHATWG à créer HTML Living
+        Standard (littéralement : standard vivant du HTML), une spécification de HTML prévue pour être en constante
+        évolution, afin de coller avec les développements rapides de nouvelles fonctionnalités par les développeurs de
+        navigateurs24(par opposition à des versions numérotées, donc « fixes »).
+
+        Le HTML Living Standard a pour but d'inclure le HTML5, et de le développer en permanence25. En particulier, dans
+        la version du 22 août 2012, le document de référence25 explique que le HTML5 du W3C, publié le 22 juin 2012, est
+        basé sur une version du HTML Living Standard, mais que le HTML Living Standard ne s'arrête pas à cette version,
+        et continue à évoluer. Il développe en particulier les différences entre la version W3C (le HTML5) et la version
+        HTML Living Standard (par exemple, les nouveaux bugs ne sont pas pris en compte dans le HTML5, des différences
+        syntaxiques sont répertoriées, et de nouvelles balises créées par le HTML Living Standard ne sont pas incluses
+        dans le HTML5).
+
+        Description de HTML
+        HTML est un langage de description de format de document qui se présente sous la forme d’un langage de balisage
+        dont la syntaxe vient du Standard Generalized Markup Language (SGML).<br />
+
+        <mark id="ancre">1997</mark><br />
+        Syntaxe de HTML
+        Jusqu’à sa version 4.01 comprise, HTML est formellement décrit comme une application du SGML. Cependant, les
+        spécifications successives admettent, par différents biais, que les agents utilisateurs ne sont pas, en
+        pratique,
+        des analyseurs SGML conformes26. Les navigateurs Web n’ont jamais été capables de déchiffrer l’ensemble des
+        variations de syntaxe permises par SGML27 ; en revanche ils sont généralement capables de rattraper
+        automatiquement
+        de nombreuses erreurs de syntaxe, suivant la première partie de la « loi de Postel » : « Soyez libéral dans ce
+        que
+        vous acceptez, et conservateur dans ce que vous envoyez » (RFC 79128). De fait, les développeurs de pages Web et
+        de
+        navigateurs Web ont toujours pris beaucoup de liberté avec les règles syntaxiques de SGML. Enfin, la document
+        type
+        definition (DTD) de HTML, soit la description technique formelle de HTML, n’a été écrite par Dan Connolly que
+        quelques années après l’introduction de HTML4.
+
+        Malgré les libertés prises avec la norme, la terminologie propre à SGML est utilisée : document, élément,
+        attribut,
+        valeur, balise, entité, validité, application, etc. Grâce à la DTD, il est possible de vérifier automatiquement
+        la
+        validité d’un document HTML à l’aide d’un parseur SGML29.
+
+    </p> 
+</body>
+
+</html>-->
+
+<!--<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fichierCSS.css" />
+</head>
+
+<body>
+    <div class="div">
+        <h2>apprendre le html et css</h2>
+        <p class="para1 blanc">Un premier paragrapheHTML signifie « HyperText Markup Language » qu'on peut traduire par «
+            langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu d'une page
+            web et sa structure. ... Les liens sont un aspect fondamental du Web.</p>
+        <p class="para2">Un deuxième paragraphe</p>
+        <p class="para3">Troisième paragraphe</p>
+        <p class="para4">Quatrième paragraphe</p>
+    </div>
+</body>
+
+</html>-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fichierCSS.css" />
+
+</head>
+
+<body>
+    <p class="para1 ">Un premier paragrapheHTML </p>
+    <p class="para2">Un deuxième paragraphe</p>
+    <p class="para3">Troisième paragraphe</p>
+    <img src="../../ahmedPFE/ERPHôtellerie/ERPHôtellerie/assets/img/menu/tuscan-grilled.jpg"
+        alt="format de l'image est jpeg" />
+    <p class="para4">Quatrième <em>paragraphe</em></p>
+    <audio controls autoplay loop>
+        <source src="test.mp3">
+        </source>
+        <source src="test.ogg">
+        </sourse>
+    </audio></br>
+
+    <video controls autoplay src="https://www.youtube.com/embed/ccmpxrDTdr4?start=82"></video></br>
+
+    <video controls poster="../../ahmedPFE/ERPHôtellerie/ERPHôtellerie/assets/img/menu/tuscan-grilled.jpg">
+        <source src="./video.mp4">
+        </source>
+        <source src="test.ogg">
+        </source>
+    </video><br />
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ccmpxrDTdr4?start=00"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <figcaption></figcaption>
+    <figure></figure>
+
+    <table>
+        <thead>
+            <tr>
+                <th>En tete 1</th>
+                <th>En tete 2</th>
+                <th>En tete 3</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>En tete 1</th>
+                <th>En tete 2</th>
+                <th>En tete 3</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Cellule 1</td>
+                <td>Cellule 2</td>
+                <td rowspan="2">Cellule 3</td>
+            </tr>
+            <tr>
+                <td>Cellule 4</td>
+                <td>Cellule 5</td>
+                
+            </tr>
+            <tr>
+                <td>Cellule 7</td>
+                <td colspan="2">Cellule 8</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>-->
+
+<!--<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" action="traitement.js">
+        <fieldset>
+            <legend>Information essentielles</legend>
+
+            <label for="pseudo">Remplissez votre pseudo</label>
+            <input type="text" name="pseudo" id="pseudo" /><br /><br />
+
+            <label for="pass">Tapez votre mot de passe</label>
+            <input type="password" name="pass" id="pass" /><br /><br />
+
+            <label for="email">Remplissez votre email</label>
+            <input type="email" name="email" id="email" placeholder="email" required="required" /><br /><br />
+
+            <label for="site">Inscrivez vote site d’Internet</label>
+            <input type="url" name="site" id="site" /><br /><br />
+
+            <label for="telephone">Inscrivez votre numéro de téléphone</label>
+            <input type="tel" name="telephone" id="telephone" /><br /><br />
+        </fieldset>
+        <label for="commentaire">Avez vous des commentaires ?</label><br />
+        <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea><br /><br />
+
+        Quels sont vos sports favoris ?<br />
+        <input type="checkbox" name="course" id="course" checked="checked" />
+        <label for="course">Course</label><br />
+
+        <input type="checkbox" name="football" id="football" />
+        <label for="football">Football</label><br />
+
+        <input type="checkbox" name="natation" id="natation" />
+        <label for="natation">Natation</label><br /><br />
+
+        Quelle viennoiserie préférez vous ?<br />
+        <input type="radio" name="viennoiserie" value="croissant" id="croissant" checked="checked" />
+        <label for="croissant">Croissant</label><br />
+
+        <input type="radio" name="viennoiserie" value="chocolat" id="chocolat" />
+        <label for="chocolat">Chocolat</label><br />
+
+        <input type="radio" name="viennoiserie" value="raisin" id="raisin" />
+        <label for="raisin">Raisin</label><br /><br />
+
+        Choisissez votre pays ?<br />
+        <select name="pays" id="pays">
+            <option value="">------</option>
+            <optgroup label="Europe">
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+            </optgroup>
+            <optgroup label="Afrique">
+                <option value="Tunisie">Tunisie</option>
+                <option value="Algérie">Algérie</option>
+            </optgroup>
+        </select><br/><br/>
+
+        <input type="submit" value="envoyer" />
+
+    </form>
+</body>
+
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fichierCSS.css" />
+
+</head>
+<body>
+    <!-- <div>
+        <p>première paragraphe</p>
+        <p>deuxième paragraphe</p>
+        <p>troisième paragraphe</p>
+    </div> -->
+
+    <h1>Responsive design</h1>
+    <div id="div1">
+        <p>Paragraphe de div 1</p>
+    </div>
+    <div id="div2">
+        <p>Paragraphe de div 2</p>
+    </div>
+    <div id="div3">
+        <p>Paragraphe de div 3</p>
+    </div>
+    <div id="footer">
+        <p>Je suis un pied de la page</p>
+    </div>
+    
+    
+    
+</body>
+</html>
